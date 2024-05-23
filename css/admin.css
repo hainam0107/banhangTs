@@ -1,0 +1,106 @@
+.admin-left {
+    background: linear-gradient(to bottom, #ffffff, #7ac7d5);
+    height: 100vh;
+}
+
+.admin-right {
+    height: auto;
+    width: 1280px;
+    margin-left: 252px;
+}
+
+.admin-left__content {
+    margin-top: 100px;
+}
+
+.admin-left__content p {
+    font-weight: 500;
+    margin-top: 35px;
+    width: 205px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.admin-left__content p i {
+    margin-left: 5px;
+}
+.admin-left__content  .active {
+    background-color: #fff;
+}
+.admin-left__content i {
+    color: rgb(15, 15, 134);
+}
+
+.admin-left__content p::before {
+    height: 50px;
+    height: 100vh;
+    transition: 0.1s all ease-in-out;
+    content: "";
+}
+
+.admin-left__content p:hover::before {
+    width: 2px;
+    height: 30px;
+    margin-right: 10px;
+    border-left: 5px solid black;
+    /* transition: 1s all ease-in-out; */
+
+}
+
+.btn-logoutt {
+    color: white;
+    background-color: #546a7e;
+}
+
+.adr-ct {
+    background-color: rgb(85, 85, 133)
+}
+table tr th{
+    color: grey;
+}
+table tr td{
+    font-weight: 500;
+}
+.btn-add {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    background-color: #546a7e;
+} 
+.btn-ad{
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    background-color: #546a7e;
+}
+#data table tbody button {
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+.listCate button a {
+    text-decoration: none;
+    color: white;
+}
+.listCate button{
+    border: 0;
+    background-color: #546a7e;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+td {
+    vertical-align: middle;
+}
+.showOption {
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+.showOption .option input {
+    margin-top: 15px;
+    margin-right: 10px;
+}
